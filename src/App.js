@@ -12,7 +12,8 @@ import Cart from "./Cart";
 import RestarentMenu from "./RestarentMenu";
 
 import "./App.css"
-import { Provider } from "react-redux";
+
+import { Provider } from "react-redux"
 import appStore from "./Store/appStore";
 
 

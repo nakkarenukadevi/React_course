@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 
 
 const useRestaurantaMenu = (resid) => {
-    let [resInfo, setResInfo] = useState([]);
+    let [resInfo, setResInfo] = useState(null);
 
     useEffect(() => {
         feactMenu()
